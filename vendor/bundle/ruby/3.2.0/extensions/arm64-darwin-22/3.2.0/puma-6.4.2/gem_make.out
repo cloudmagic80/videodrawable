@@ -1,0 +1,33 @@
+current directory: /Users/donshin/Rails/videodrawable/vendor/bundle/ruby/3.2.0/gems/puma-6.4.2/ext/puma_http11
+/Users/donshin/.rvm/rubies/ruby-3.2.2/bin/ruby extconf.rb --with-pkg-config\=/opt/homebrew/opt/openssl@1.1/lib/pkgconfig
+checking for BIO_read() in -llibcrypto... no
+checking for BIO_read() in -lcrypto... yes
+checking for SSL_CTX_new() in -lssl... yes
+checking for openssl/bio.h... yes
+checking for DTLS_method() in openssl/ssl.h... yes
+checking for SSL_CTX_set_session_cache_mode(NULL, 0) in openssl/ssl.h... yes
+checking for TLS_server_method() in openssl/ssl.h... yes
+checking for SSL_CTX_set_min_proto_version(NULL, 0) in openssl/ssl.h... yes
+checking for X509_STORE_up_ref()... yes
+checking for SSL_CTX_set_ecdh_auto(NULL, 0) in openssl/ssl.h... yes
+checking for SSL_CTX_set_dh_auto(NULL, 0) in openssl/ssl.h... yes
+checking for SSL_get1_peer_certificate() in openssl/ssl.h... no
+checking for Random.bytes... yes
+creating Makefile
+
+current directory: /Users/donshin/Rails/videodrawable/vendor/bundle/ruby/3.2.0/gems/puma-6.4.2/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20240110-39957-atdm9t sitelibdir\=./.gem.20240110-39957-atdm9t clean
+
+current directory: /Users/donshin/Rails/videodrawable/vendor/bundle/ruby/3.2.0/gems/puma-6.4.2/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20240110-39957-atdm9t sitelibdir\=./.gem.20240110-39957-atdm9t
+compiling http11_parser.c
+compiling mini_ssl.c
+compiling puma_http11.c
+linking shared-object puma/puma_http11.bundle
+
+current directory: /Users/donshin/Rails/videodrawable/vendor/bundle/ruby/3.2.0/gems/puma-6.4.2/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20240110-39957-atdm9t sitelibdir\=./.gem.20240110-39957-atdm9t install
+/opt/homebrew/opt/coreutils/bin/ginstall -c -m 0755 puma_http11.bundle ./.gem.20240110-39957-atdm9t/puma
+
+current directory: /Users/donshin/Rails/videodrawable/vendor/bundle/ruby/3.2.0/gems/puma-6.4.2/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20240110-39957-atdm9t sitelibdir\=./.gem.20240110-39957-atdm9t clean

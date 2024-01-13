@@ -1,0 +1,30 @@
+current directory: /Users/donshin/Rails/videodrawable/vendor/bundle/ruby/3.2.0/gems/psych-5.1.2/ext/psych
+/Users/donshin/.rvm/rubies/ruby-3.2.2/bin/ruby extconf.rb
+checking for yaml.h... yes
+checking for yaml_get_version() in -lyaml... yes
+creating Makefile
+
+current directory: /Users/donshin/Rails/videodrawable/vendor/bundle/ruby/3.2.0/gems/psych-5.1.2/ext/psych
+make DESTDIR\= sitearchdir\=./.gem.20240110-39957-su5yop sitelibdir\=./.gem.20240110-39957-su5yop clean
+cd libyaml && /Library/Developer/CommandLineTools/usr/bin/make clean
+/bin/sh: line 0: cd: libyaml: No such file or directory
+make: [clean-so] Error 1 (ignored)
+
+current directory: /Users/donshin/Rails/videodrawable/vendor/bundle/ruby/3.2.0/gems/psych-5.1.2/ext/psych
+make DESTDIR\= sitearchdir\=./.gem.20240110-39957-su5yop sitelibdir\=./.gem.20240110-39957-su5yop
+compiling psych.c
+compiling psych_emitter.c
+compiling psych_parser.c
+compiling psych_to_ruby.c
+compiling psych_yaml_tree.c
+linking shared-object psych.bundle
+
+current directory: /Users/donshin/Rails/videodrawable/vendor/bundle/ruby/3.2.0/gems/psych-5.1.2/ext/psych
+make DESTDIR\= sitearchdir\=./.gem.20240110-39957-su5yop sitelibdir\=./.gem.20240110-39957-su5yop install
+/opt/homebrew/opt/coreutils/bin/ginstall -c -m 0755 psych.bundle ./.gem.20240110-39957-su5yop
+
+current directory: /Users/donshin/Rails/videodrawable/vendor/bundle/ruby/3.2.0/gems/psych-5.1.2/ext/psych
+make DESTDIR\= sitearchdir\=./.gem.20240110-39957-su5yop sitelibdir\=./.gem.20240110-39957-su5yop clean
+cd libyaml && /Library/Developer/CommandLineTools/usr/bin/make clean
+/bin/sh: line 0: cd: libyaml: No such file or directory
+make: [clean-so] Error 1 (ignored)

@@ -1,0 +1,18 @@
+current directory: /Users/donshin/Rails/videodrawable/vendor/bundle/ruby/3.2.0/gems/racc-1.7.3/ext/racc/cparse
+/Users/donshin/.rvm/rubies/ruby-3.2.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/donshin/Rails/videodrawable/vendor/bundle/ruby/3.2.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240110-39957-nk5lc4 sitelibdir\=./.gem.20240110-39957-nk5lc4 clean
+
+current directory: /Users/donshin/Rails/videodrawable/vendor/bundle/ruby/3.2.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240110-39957-nk5lc4 sitelibdir\=./.gem.20240110-39957-nk5lc4
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/donshin/Rails/videodrawable/vendor/bundle/ruby/3.2.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240110-39957-nk5lc4 sitelibdir\=./.gem.20240110-39957-nk5lc4 install
+/opt/homebrew/opt/coreutils/bin/ginstall -c -m 0755 cparse.bundle ./.gem.20240110-39957-nk5lc4/racc
+
+current directory: /Users/donshin/Rails/videodrawable/vendor/bundle/ruby/3.2.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240110-39957-nk5lc4 sitelibdir\=./.gem.20240110-39957-nk5lc4 clean
